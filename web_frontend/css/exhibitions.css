@@ -1,0 +1,23 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  background: url("https://preview.ibb.co/giKBn6/final2.jpg") 50% fixed;
+  background-size:50%;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: #ff8c66;
+}
+
+tbody > img {
+  width: 50%;
+  height: 50%;
+}

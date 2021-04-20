@@ -1,0 +1,64 @@
+body {
+           font-family: "Open Sans", sans-serif;
+           height: 100vh;
+           background: url("https://preview.ibb.co/giKBn6/final2.jpg") 50% fixed;
+           background-size:50%;
+        }.container{
+           display: flex;
+           align-items: center;
+           flex-direction: column;
+           justify-content: center;
+           width: 100%;
+           min-height: 100%;
+           padding: 20px;
+           background: rgba(255, 255, 255, 1);
+           box-shadow: #ff8c66;
+           overflow:overlay;
+        }.conLab{
+           margin-bottom: 10px;
+           margint-top:10px;
+           padding: 10px;
+        }.heading {
+           position: absolute;
+           top: 80px;
+           text-allign:center;
+        }.maxAllowedMsg{
+           position:absolute;
+           left: 650px;
+           top: 200px;
+           width: 600px;
+           padding: 25px;
+           margin: 25px
+        }.maxAllowed{
+           position:absolute;
+           left: 1000px;
+           top: 200px;
+           padding: 25px;
+           margin: 25px;
+           color: #00b8e6;
+        }.currentMsg{
+           position:absolute;
+           left: 650px;
+           top: 250px;
+           width: 600px;
+           padding: 25px;
+           margin: 25px
+        }.current{
+           position:absolute;
+           left: 1000px;
+           top: 250px;
+           padding: 25px;
+           margin: 25px;
+           color: #00b8e6;
+        }
+        td {
+  		   text-align: center;
+        }
+        .tableRow{
+           border:1px solid black;
+           align-items:center;
+        }
+         .tableLab{
+           object-fit:cover;
+        }
+        

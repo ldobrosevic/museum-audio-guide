@@ -1,0 +1,53 @@
+﻿Ovdje se nalazi popis stranica koje treba napraviti ili koje su već napravljene:
+
+Ovo je popis stranica kojima ima pristup svaki korisnik:
+
+1. Naslovna stranica (index.html) 						(napravljeno)
+2. O muzeju (aboutus.html)		  						(napravljeno)
+3. Izlozbe (exhibitions.html) 	  						(nije napravljeno)
+4. Izlosci (exhibits.html)	      						(nije napravljeno) = nije napravljeno allExhibits ali sama exhibit stranica je
+5. Prijava (login.html)			  						(napravljeno)
+6. Registracija (register.html)   						(napravljeno)
+7. Resetiranje lozinke (passreset.htlm) 				(napravljeno)
+8. Kontakt                                    			(napravljeno)
+
+--------------------------------------------------------------------------
+
+Ovo je popis stranica kojima ima pristup registirani korisnik:  ---Luka:"Ovaj dio mislim da ni necemo imati, pogotovo pregled profila, za detalje obratiti se Lovri Dobrisevicu"
+
+1. Pregled profila (userprofile.html)					(nije napravljeno)
+2. Promjena lozinke (passchange.html)					(nije napravljeno)
+3. Editiarnje profila (editprofile.html)				(nije napravljeno)
+4. Brisanje profila (deleteprofile.html)				(nije napravljeno)
+
+--------------------------------------------------------------------------
+
+Ovo je popis stranica kojima ima pristup adiminstrator:
+
+1. Dodavanje izlozbe (addexhibition.html)				(napravljeno)
+2. Dodavanje izloska (addexhibibit.html)				(napravljeno)
+3. Dodavanje detalja izloska (adddetail.html)			(napravljeno)
+4. Promjena izlozbe (changeexhibition.html)				(nije napravljeno)
+5. Promjena izloska (changeexhibit.html)				(nije napravljeno)
+6. Promjena detalja (changedetail.html)					(nije napravljeno)
+
+Ovdje se pod promjena misli i na brisanje.
+
+--------------------------------------------------------------------------
+
+Ovo je popis stranica kojima ima pristup vlasnik sustava:
+
+1. Dodavanje administratora (addadmin.html)				(nije napravljeno)
+2. Brisanje administartora (deleteadmin.html)			(nije napravljeno)
+
+Kraj.
+
+NOTE: ovo je pocetni template popisa stranica koje su u izradi/treba napraviti/napravljene. Ovo ce se jos mijenjati.
+
+--------------------------------------------------------------------------
+Lukin prolaz s filipom došilovićem kroz postojeće stranice
+
+1. addExhibits = Stilizirati gumbe dodaj sliku, dodaj audio da budu obliji ili ljepši
+2. allExhibits.html = totalno promjenit, dodati bootstrap, napraviti da je pozadinska alika ili ona nikina ili jedna boja
+		 hardkodirano (npr. ona breskvasta gore ljevo) 
+3. Promjeniti sve css js u CDN a ne skinuto

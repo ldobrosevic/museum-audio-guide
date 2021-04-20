@@ -1,0 +1,16 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
+  background: url("https://preview.ibb.co/giKBn6/final2.jpg") 50% fixed;
+  background-size:50%;
+}
+
+tbody > img {
+  width: 50%;
+  height: 50%;
+}
+
+img {
+  width: 90%;
+  height: 90%
+}

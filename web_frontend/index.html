@@ -1,0 +1,216 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <title>AppTownFunk Muzej</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+    <style>
+        body {
+           font-family: "Open Sans", sans-serif;
+           height: 100vh;
+           background: url("https://preview.ibb.co/giKBn6/final2.jpg") 50% fixed;
+           background-size:50%;
+        }.container{
+           display: flex;
+           align-items: center;
+           flex-direction: column;
+           justify-content: center;
+           width: 100%;
+           min-height: 100%;
+           padding: 20px;
+           background: rgba(255, 255, 255, 1);
+           box-shadow: #ff8c66;
+        }
+        /* .carousel-inner img {
+            width: 20%;
+            height: auto;
+        } */
+
+        /* ovo treba staviti u poseban CSS datoteku!!! */
+
+        /* .carousel-inner {
+            background-color: #DDE3E2;
+            padding: 30px 20px 20px 20px;
+
+        } */
+
+        .carousel-inner > .carousel-item > img {
+            margin:auto;
+            max-width: 900px;
+        }
+
+        .myboxnews > table {
+            margin: auto;
+            margin-top: 20px; 
+        }
+
+        p {
+            margin-top: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+    </style>
+
+</head>
+
+  <body>
+        <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                    <a class="navbar-brand" href="#">
+                      <img src="https://image.ibb.co/kpRSum/aflogo.png" width="100" height="30"  alt="">
+                    </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Naslovna</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.html">O muzeju</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exhibitions.html">Izložbe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="exhibits.html">Izlošci</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Kontakt</a>
+                    </li>
+                    </ul>
+                    <ul class = "navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Prijavi se <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Registriraj se</a>
+                    </li>
+                    </ul>
+                </div>
+                </nav>
+            </div>
+
+<div class="header">
+
+    </div>
+<div class="container">
+    <!-- carusel -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img class="d-block img-fluid" src="https://c1.staticflickr.com/2/1644/24550005331_954b75c0b9_b.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h3>Naslov 1. : Izlozba 1.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                    anim id est laborum.</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block img-fluid" src="https://cdn.pixabay.com/photo/2015/05/06/02/18/metropolitan-museum-of-art-754843_960_720.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+                    <h3>Naslov 2. : Izlozba 2.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                        anim id est laborum.</p>
+                  </div>
+          </div>
+          
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <h3 style="margin-top:20px;margin-left:10px;">
+          Najposjećenije izložbe:
+      </h3>
+
+      <div class="card-deck" style="margin-left:20px;margin-right:20px;margin-top:20px;">
+        <div class="card">
+          <img class="card-img-top" src="http://icdn.ensonhaber.com/resimler/diger/van-goh_6.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Van Gogh Alive</h4>
+            <p class="card-text">Van Gogh Alive je nevjerojatno, nadahnjujuće iskustvo koje se proširuje maštu. Ovo kreativno iskustvo svjetske klase ne smijete propustiti!</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="http://cdn1.bostonmagazine.com/wp-content/uploads/2016/03/Rodin-PEM-peabody-essex-museum-4-1200x797.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Rodin u MET-u</h4>
+            <p class="card-text">Na stogodišnjicu smrti Augusta Rodina (1840.-1917.) MET slavi svoju povijesnu zbirku umjetničkog djela. Gotovo 50 Rodinovih djela od mramora, bronce, žbuke i terakote, koja predstavlja više od jednog stoljeća akvizicije i darova Muzeju, prikazana su u novoinstaliranoj i obnovljenoj Galeriji skulptura B. Gerald Cantor (galerija 800).</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="http://1.bp.blogspot.com/-AdlJWgmz1bM/UFdh92UxCQI/AAAAAAAAMgw/eSS051aMqSY/s1600/Andy+Warhol+Exhibit.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Warholova kolekcija</h4>
+            <p class="card-text">Muzej Andy Warhol ima najveću zbirku Warholove umjetnosti i arhiva u svijetu. Umjetnikov rad od 1940-ih do njegove smrti 1987. nalazi se na pet katova muzeja. Muzej također ima stalni film i video galeriju na četvrtom katu za gledanje pojedinačnih filmova i videozapisa o životu i djelu Andyja Warhola.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-deck" style="margin-left:20px;margin-right:20px;margin-top:20px;margin-bottom: 10px">
+        <div class="card">
+          <img class="card-img-top" src="http://ansp.org/~/media/Images/ans/visit/exhibits/dinosaurs/DinoHall_Tyranno_Will-Klein-636.ashx?h=420&w=636&la=en&hash=F35B0AA26C21124040FA8E1858CB3B9380A86C5F" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Dino izložba</h4>
+            <p class="card-text">Američki prirodoslovni muzej ima jednu od najvećih fosilnih zbirki dinosaura u svijetu. Istražite svjetski poznate eksponate dinosaura kroz dosad neviđenu izložbu ovih fascinantnih izumrlih živina.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="http://butterboom.com/wp-content/uploads/2013/09/pier4_ladydiorasseenbyinside_butterboom.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Umjetnost Lady Dior torbice</h4>
+            <p class="card-text">Emblematski i istinski mit koji je inspiriran visokim modnim stilom: torba Lady Dior rođena je 1995. u Diorovim radionicama i postala poznata kada je Princeza Diana prvi put nosila ovaj jedinstveni primjerak u posjetu Parizu. Arhitektonske linije, metalni privjesci koji opisuju Diorovo ime i motiv "kantona" inspiriran sjedalima Napoleonovih stolica na kojima gosti sjede tijekom revije Christiana Diora-Lady Dior torba utjelovljuje suvremenu eleganciju Diora.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="http://www.aacamuseum.org/wp-content/uploads/2016/02/Route-66-Completed-2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h4 class="card-title">Route 66-San majke ceste</h4>
+            <p class="card-text">Američki muzej automobila donosi "San majke ceste" sa živahnom, interaktivnom zbirkom automobila i suvenira kako bi proslavili američku ikonsku cestu Route 66.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+</div>
+
+    <div class="footer">
+        <p>AppTownFunk @ Copyright 2017.</p>
+    </div>
+   
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
+
+<!-- http://www.layoutit.com/ -->
